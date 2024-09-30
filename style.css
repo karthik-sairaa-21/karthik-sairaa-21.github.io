@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Manrope", sans-serif;
+  
+}
+body{
+  overflow-x: hidden;
+
+  
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0;
+    }
+    .navbar .navbar-nav .nav-item {
+      margin: 0 1em;
+    }
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    background-color: black;
+    width: 0%;
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+
+header{
+  background-color: rgb(228, 228, 116);
+}
+/* Container */
+
+  .img-0{
+    background-color:black;
+    width: 99vw;
+    height: 100vh;
+ 
+ }
+ .img-1{
+  background-color:rgb(48, 49, 49) ;
+  width: 99vw;
+  height: 100vh;
+
+}
+.img-2{
+  background-color:rgb(8, 8, 8);
+  width: 99vw;
+  height: 100vh;
+
+}
+.img-3{
+  background-color:rgb(48, 49, 49);
+  width: 99vw;
+  height: 100vh;
+
+}
+/* end */
+
+ .footer{
+  height: 5vh;
+ }
+ .insta{
+  width: 50px;
+  height: 50px;
+ }
+ 
+/* img rotarer */
+.card:hover{
+  cursor: pointer;
+  transition: 3s;
+  transform: rotateY(360deg);
+}
+
+
