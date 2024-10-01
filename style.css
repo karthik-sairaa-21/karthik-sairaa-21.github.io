@@ -8,8 +8,6 @@
 }
 body{
   overflow-x: hidden;
-
-  
 }
 
 @media screen and (min-width: 992px) {
@@ -46,6 +44,8 @@ body{
 header{
   background-color: rgb(228, 228, 116);
 }
+
+
 /* Container */
 
   .img-0{
@@ -72,12 +72,13 @@ header{
   height: 100vh;
 
 }
+
 /* end */
 
  .footer{
   height: 5vh;
  }
- .insta{
+ .git{
   width: 50px;
   height: 50px;
  }
