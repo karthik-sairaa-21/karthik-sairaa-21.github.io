@@ -1,205 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>Profilo - Karthikeyan</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
-<body class="bg-dark text-white ">
-    <header class="sticky-top  ">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" >
+<body class="bg-dark text-white">
+    <header class="sticky-top bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">SK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2">
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold "  href="#Home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#About">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#Skills">Skills</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#Contact">Contact</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#About">About</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#Skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#Projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#Contact">Contact</a></li>
                     </ul>
                 </div>
+            </div>
         </nav>
-
     </header>
 
+    <!-- Home Section -->
+    <section id="Home" class="py-5 text-center d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h2>Hi, This is</h2>
+                    <h1 class="display-4 fw-bold">Karthikeyan</h1>
+                    <p class="lead">Aspiring Software Developer | Passionate Learner</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./assets/images/Snapchat-509239391.jpg" alt="Profile" class="img-fluid-1">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="About" class="py-5 bg-secondary text-white d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/images/seedgerminating.jpg" alt="Growing Plant" class="img-fluid ">
+                </div>
+                <div class="col-lg-6 text-center mt-5">
+                    <h2 class="about-title">About Me</h2>
+                    <p class="about-description">I’m Karthikeyan from Chennai. I graduated in Computer Engineering during the COVID-19 batch, but faced challenges securing a job. Due to financial difficulties, I worked at TVS, a machine-based company. I later taught myself math and passed the FSSA 3 batch exam, earning a place at the Freshworks Software Academy.
+                        There, I learned HTML, CSS, and JavaScript, and developed a movie booking website called TheatreClick.
+                        <br><br>"My short-term goal is to gain strong IT knowledge, and my long-term goal is to become a farmer."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     
-    <!-- page1 -->
+
+    <!-- Skills Section -->
+    <section id="Skills" class="py-5 text-center d-flex justify-content-center align-items-center">
+        <div class="container">
+            <h2 class="mb-4">My Skills</h2>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-4 mb-4">
+                    <i class="fa-brands fa-html5 text-warning"></i>
+                    <p class="mt-2">HTML5</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;" role="progressbar">70%</div>
+                    </div>
+
+                    <i class="fa-brands fa-css3-alt text-primary mt-5"></i>
+                    <p class="mt-2">CSS3</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;" role="progressbar">75%</div>
+                    </div>
+
+                    <i class="fa-brands fa-bootstrap  text-purple mt-5"></i>
+                    <p class="mt-2">Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;" role="progressbar">75%</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <i class="fa-brands fa-square-js  text-warning"></i>
+                    <p class="mt-2">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;" role="progressbar">Level 6</div>
+                    </div>
+
+                    <i class="fa-brands fa-python  text-success mt-5"></i>
+                    <p class="mt-2">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;" role="progressbar">75%</div>
+                    </div>
+
+                    <i class="fa-brands fa-bootstrap  text-purple mt-5"></i>
+                    <p class="mt-2">Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;" role="progressbar">75%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
-    <section class="img-0">
-        <div class="container" id="Home">
+    <!-- Projects Section -->
+    <section id="Projects" class="py-5 bg-secondary text-white d-flex justify-content-center align-items-center">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
             <div class="row">
-                <div class="col-11 col-md-6 col-lg-4  mt-5 m-4  ">
-                    <img class="img-fluid rounded" src="./assets/images/profilo.jpeg" alt="Profile">
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of your first project goes here.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-                    <div class="row">
-                        <h2>Hi This is</h2>
-                        <h1>Karthikeyan</h1>
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of your second project goes here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of your third project goes here.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end -->
 
-
-
-
-
-    <!-- page2 -->
-    <section class="img-1 d-flex  justify-content-center align-items-center" id="About">
-
-        <div class="container bg-secondary rounded">
-            <div class="row p-5  d-flex  flex-column justify-content-center align-items-center">
-                <p class="h2">I graduated with a Diploma in Computer Science in 2022. After a break, I am now
-                    continuing my studies at the Freshworks Software Academy. I am passionate about working in
-                    the IT field and excited to use my skills and knowledge to solve real-world problems. So far, I have
-                    l
-                    earned JavaScript, HTML, CSS, as well as English and life skills.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- end -->
-
-
-
-
-
-
-
-    <!-- page-3 -->
-    <section class="img-2 d-flex justify-content-center align-items-center" id="Skills">
+    <!-- Contact Section -->
+    <section id="Contact" class="py-5 d-flex justify-content-center align-items-center">
         <div class="container">
-            <div class="row ">
-                <div class="col-6 col-md-6 col-lg-3 mt-4 " class="skills1">
-                    <div class="card">
-                        <img src="./assets/images/html.jpeg" class="rounded" alt="tools-img-1">
-                    </div>
-                    <div class="card-body ">
-                        <a href="./pages/index1.html " target="_blank" >
-                            <h1>Click here</h1>
-                        </a>
-                        <div class="progress">
-                            <div class="progress-bar"  style="width: 85%;" >75%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-3 mt-4">
-                    <div class="card">
-                        <img src="./assets/images/Css.jpeg" alt="tools-img-2">
-                    </div>
-                    <div class="card-body">
-                       <a href="./pages/index.html" target="_blank"> <h1>Click here</h1></a>
-                        <div class="progress">
-                            <div class="progress-bar"  style="width: 85%;">75%</div>
-                        </div>
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h5><i class="fa-solid fa-phone me-2"></i>Phone</h5>
+                    <p>8072557704</p>
 
-                    </div>
+                    <h5><i class="fa-solid fa-envelope me-2"></i>Email</h5>
+                    <p>karthiksakthivel212003@gmail.com</p>
+
+                    <h5><i class="fa-solid fa-location-dot me-2"></i>Address</h5>
+                    <p>Kovailpathagai, Avadi, Chennai-62</p>
                 </div>
-                
-                <div class="col-6 col-md-6 col-lg-3 mt-4">
-                    <div class="card">
-                        <img src="./assets/images/js.jpeg" alt="tools-img-3">
-                    </div>
-                    <div class="card-body">
-                        <a href="https://github.com/karthik-sairaa-21" target="_blank"><h1>Click here</h1></a>
-                        <div class="progress">
-                            <div class="progress-bar"  style="width: 35%;">35%</div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" required>
                         </div>
-                    </div>
-
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
                 </div>
-                <div class="col-6 col-md-6 col-lg-3 mt-4">
-                    <div class="card">
-                        <img src="./assets/images/Bootstrap.png" class="img-fluid"alt="tools-img-4">
-                    </div>
-                    <div class="card-body">
-                        <h1>Bootstap</h1>
-                    </div>
-                </div>
-
             </div>
         </div>
-        </div>
     </section>
 
-    <!-- end -->
-
-
-
-
-
-
-
-    <!-- page4 -->
-    <section class="img-3 d-flex align-items-center " id="Contact">
-        <div class="container">
-             <div class="row  d-flex  justify-content-center align-items-center">
-                <div class="col-6 col-md-6 col-lg-3 m-3 " >
-                    <div class="card">
-                        <img src="./assets/images/Phone_icon.jpg" class="logo" alt="icons-1"> 
-                    </div>
-                    <div class="card-body mt-1">
-                        <h1> 8072557704</h1>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-3 m-3">
-                    <div class="card">
-                        <img src="./assets/images/Message_icon.jpg " class="logo" alt="icons-2">
-                    </div>
-                    <div class="card-body mt-4">
-                        <h3>Sakthivel@gmail.com</h3>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-3 m-3">
-                    <div class="card">
-                        <img src="./assets/images/Location_icon.jpg" alt="icons-3">
-                    </div>
-                    <div class="card-body">
-                        <h4>NO.5 Ashok Nagar Avadi CH-62</h4>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </section>
-    
-    <!-- end -->
-
-
-
-
-
-
-    
-    <footer class="footer">
-        <div clss="row bg-secondary ">
-            <h3 class="d-flex justify-content-center">For More details</h3>
-            <a href="https://github.com/karthik-sairaa-21" target="_blank" class="d-flex justify-content-center"> <img class="git"
-                    src="./assets/images/git.png" alt="github"></a>
-        </div>
+    <!-- Footer -->
+    <footer class=" text-white py-3 text-center">
+        <p>For More Details, Visit My <a href="https://github.com/karthik-sairaa-21" class="text-warning">GitHub</a></p>
     </footer>
+
 </body>
+
 </html>
