@@ -130,7 +130,7 @@ section {
   transition: transform 0.3s ease;
 }
 
-.fa-solid{
+#Skills .fa-solid{
   font-size: 3.5rem;
   margin-bottom: 0.2rem;
 }
@@ -150,6 +150,23 @@ section {
   color: #bbbbbb;
   margin-top: 1rem;
 }
+
+
+#Skills .fa-soild {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+#Skills .fa-solid{
+  font-size: 3.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#Skills .fa-solid:hover {
+  transform: scale(1.1);
+}
+
 
 
 /* Projects Section */
